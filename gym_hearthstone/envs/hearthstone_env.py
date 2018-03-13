@@ -6,7 +6,9 @@ class HearthstoneEnv(gym.Env):
   metadata = {'render.modes': ['human']}
 
   def __init__(self):
-    pass
+    print("Hearthstone Game Environment Start")
+    self.action_space = None
+    self.reset()
 
   def step(self, action):
     pass
